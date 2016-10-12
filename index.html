@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>todolist</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/semantic.min.css">
+	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
+</head>
+<body>
+
+	<header>
+		<div class="vertically fitted item">
+			<div class="ui inverted left fixed vertical menu">
+				<a class="item">
+					To do list
+				</a>
+				<div class="menu">
+					<a class="item" id="afaire">Tâches à faire</a>
+					<a class="active item" id="encours">Tâches en cours</a>
+					<a class="item" id="terminer">Tâches términées</a>			
+				</div>
+			</div>
+		</div> 
+		<div class="vertically fitted item">
+			<div class="ui inverted menu">
+				<div class="right item">
+					<div class="ui icon input">
+					<input type="text" placeholder="Search...">
+						<i class="search icon"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="blocklist">
+			<input type="text" name="" id="ok"  value="simplon">
+			<button id="valid">Validez</button>
+			<ul>
+
+			</ul>
+
+		</div>
+	</div>
+
+</header>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="app.js"></script>	
+</body>
+</html>
